@@ -94,7 +94,9 @@ header {
 
 .work-products {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
+	margin-top: 40px;
+	cursor: pointer;
 }
 
 footer {
