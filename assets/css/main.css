@@ -97,7 +97,20 @@ header {
 	cursor: pointer;
 }
 
-/*MODAL*/
+/*CATÁLOGO*/
+
+li {
+  list-style: none;
+  margin: -4px;
+  padding: 0;
+  width: 400px;
+  height: 400px;
+  display:inline-block;
+}
+
+/*MODAL
+  overflow: auto; 
+*/
 .modal {
     display: none; 
     position: fixed; 
@@ -107,15 +120,13 @@ header {
     top: 0;
     width: 100%;
     height: 100%; 
-    overflow: auto; 
     background-color: rgba(61,209,160, 0.8);
-
 }
 
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     border: 15px solid white;
 }
